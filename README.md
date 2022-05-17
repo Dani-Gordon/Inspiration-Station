@@ -39,7 +39,28 @@ To build a React application that consumes a public API in 48 hours.
 
 > Due to the short timeframe for this project, we decided it would be easier to utilize the time we had working together on Zoom while one of us screenshared and coded and the other brainstormed ideas and helped write the code. We started with Excalidraw and created a wireframe for the app. I created a repository in GitHub and Omar cloned it so we could work together and have the same code at the end of the day. Once we created functional Register and Login pages, we created the home page and discussed the design and functionality we wanted. We made sure we were able to pull the data through from the API and have all functions working properly before styling the application. Using Bulma-CSS framework over the last few hours of the project, we created buttons for the Quotes and Hobbies pages in addition to a button on each page that generated a new random quote or hobby the user could click on. 
 
-> As you can see from the wireframing diagrams below, we originally planned to have the quotes and hobbies displayed on one page but decided to change the design. Also, we initially wanted the user to be able to add their own quotes or hobbies to the site but had to adapt and consider that as stretch goal. Ultimately, we ran out of time and were unable to add that functionality.  My contributions were linking the API’s in React, creating the navigation bar, creating a working user registration and login page, and linking the quotes and hobbies buttons to their respective pages.
+>Here is a snippet of the code showing the  buttons on the Home page, styled with Bulma and linked to their corresponding path:
+> <img width="300" alt="image" src="https://user-images.githubusercontent.com/99892502/168727779-88816afb-bbe7-4a3a-bd47-460c74754998.png">
+
+
+
+> As you can see from the wireframing diagrams below, we originally planned to have the quotes and hobbies displayed on one page but decided to change the design. Also, we initially wanted the user to be able to add their own quotes or hobbies to the site but had to adapt and consider that as stretch goal. Ultimately, we ran out of time and were unable to add that functionality.  
+> 
+> My contributions were linking the API’s in React, creating the navigation bar, creating a working user registration and login page, and linking the quotes and hobbies buttons to their respective pages.
+
+> Here is a snippet of the code linking the two API’s:
+> 
+>  <img width="239" alt="image" src="https://user-images.githubusercontent.com/99892502/168728153-d12314cf-5dc0-4ca1-b536-0320a8cd097b.png">
+  
+> Here is a snippet of code from both the Quotes and Hobbies pages showing how each were linked to a promise and pulled the specific information from the API we wanted to display: 
+> 
+> <img width="132" alt="image" src="https://user-images.githubusercontent.com/99892502/168728437-915ecd11-78e4-4c2a-8a33-5816b3f23e46.png"> <img  width="155" alt="image" src="https://user-images.githubusercontent.com/99892502/168728311-29f67237-324a-4ac7-93a7-2d51afc63343.png"> 
+
+
+
+ 
+
+
 
 # Wireframes
 ***
